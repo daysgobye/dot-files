@@ -19,5 +19,5 @@ alias fr='react &&  open . && cd'
 alias ls='ls -a'
 
 
-PS1="=>"
+PS1="\w:=>"
 #source ~/.bashrc 
