@@ -17,7 +17,8 @@ alias f='open .'
 alias nfix='npm audit fix'
 alias fr='react &&  open . && cd'
 alias ls='ls -a'
-
+alias vim='/usr/local/Cellar/vim/8.1.1050/bin/vim'
 
 PS1="\w:=>"
-#source ~/.bashrc 
+#source ~/.bashrc
+#  gatsby develop -H 192.168.2.36 -p 8000
