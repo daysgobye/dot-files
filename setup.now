@@ -1,0 +1,13 @@
+#!/bin/bash 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap koekeishiya/formulae
+
+brew install neofetch ranger cask chunkwm htop speedtest-cli ffmpeg node vim && brew cask install visual-studio-code discord iterm2 steam battle-net
+brew install koekeishiya/formulae/skhd
+brew tap osx-cross/avr
+brew tap PX4/homebrew-px4
+brew update
+brew install avr-gcc dfu-programmer gcc-arm-none-eabi avrdude
+brew tap homebrew/cask-drivers
+brew cask install qmk-toolbox
